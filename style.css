@@ -1,3 +1,33 @@
+h1 {
+  text-align: center;
+  color: white;
+  text-decoration: underline;
+}
 body {
+  background-color: purple;
+}
+img:hover {
+    border-radius: 0%;
+}
+img {
+  border-radius: 90%;
+}
+ul {
+  list-style-type: none;
+  width: 100%;
+}
 
+li a {
+  display: block;
+  color: white;
+   padding: 10px;
+   float: left;
+}
+
+li a:hover {
+  background-color: black;
+  font-size: 20px;
+}
+a {
+  text-decoration: none;
 }
